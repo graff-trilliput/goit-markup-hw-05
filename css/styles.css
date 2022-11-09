@@ -116,6 +116,7 @@ body {
 }
 /* logo */
 .logo-link {
+  padding: 24px 0;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -134,8 +135,6 @@ body {
 
 /* header section */
 .header-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -146,6 +145,7 @@ body {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header-nav-list {
@@ -162,6 +162,9 @@ body {
 }
 
 .header-nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -189,6 +192,7 @@ body {
 .header-contact-link {
   display: flex;
   align-items: center;
+  padding: 32px 0;
 
   font-weight: 500;
   font-size: 14px;
